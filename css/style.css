@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; /* Tira as margins de todos os elementos */
+    padding: 0; /* Tira o padding de todos os elementos */
+}
+
+html{
+    font-family: 'Rock Salt', sans-serif;
+    font-family: 'RocknRoll One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    margin: 33px;
+}
+
+main{
+    margin: 30px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navegacao ul{
+    list-style: none;
+}
+
+#titulo_master{
+    font-family: 'Rock Salt';
+    font-size: 60px;
+}
+
+.navegacao .btn{
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37) ;
+    background-size: cover;
+    font-family: 'RocknRoll One';
+    transition: 1s;
+}
+
+.btn:hover{
+    transition: 1s;
+    background-color: black;
+    padding: 10px;
+}
+
+.blog_secao {
+    margin-top: 60px;
+}
+
+.blog_secao h2{
+    font-size: 35px;
+}
+
+.blog_secao h3{
+    font-size: 25px;
+}
+
+.blog_secao .blog_inicio {
+    margin-top: 20px;
+}
+
+.blog_secao .blog_bandas img{
+    border: solid whitesmoke;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    margin: 70px;
+    background-position: cover;
+}
+
+.blog_secao h3{
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.blog_secao p {
+    padding-top: 20px;
+}
+
+.blog_secao .blog_albuns img{
+    border: solid whitesmoke;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    margin: 70px;
+    background-position: cover;
+}
+
+.blog_secao .blog_clipes iframe{
+    padding: 50px;
+    height: 30rem;
+    width: 50rem;
+}
